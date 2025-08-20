@@ -1,0 +1,27 @@
+{
+  "name": "learning_cypress_thinking_tester",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open",
+    "qatest": "npx cypress open -C qa.config.js",
+    "headless": "npx cypress run",
+    "qaheadless": "npx cypress run -C qa.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/voyanimg168/learning_cypress_thinking_tester.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/voyanimg168/learning_cypress_thinking_tester/issues"
+  },
+  "homepage": "https://github.com/voyanimg168/learning_cypress_thinking_tester#readme",
+  "devDependencies": {
+    "cypress": "^14.5.4"
+  }
+}
